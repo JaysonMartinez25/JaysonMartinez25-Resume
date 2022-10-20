@@ -1,0 +1,140 @@
+
+.Main{
+    position: relative;
+    width:80%;
+    min-height: 1000px;
+    max-width: 1000px;
+    margin: 50px;
+    max-height: 1050px;
+    min-width: 1000px;
+}
+.Top{
+  background:#fff;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  position: relative;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-bottom: #00cdf1 solid  5px;
+}
+.Jayson-Name{
+  padding-top: 50px;
+  padding-bottom: 0;
+  padding-left: 50px;
+  letter-spacing: 10px;
+}
+.Software{
+  font-size: small;
+  color: rgb(177, 176, 176);
+  letter-spacing: 5px;
+  padding-left:55px ;
+}
+.Photo{
+  width: 150px;
+  height: 185px;
+  padding-top: 50px;
+  border-radius: 50%;
+  border: black solid 1px;
+}
+.Jayson{
+  display: inline;
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  
+}
+.Jayson-Name{
+  padding-left: 25%;
+  font-family: serif;
+
+}
+.Contact{
+  display: inline-block;
+  position: relative;
+}
+
+.Bottom{
+  color: rgb(204, 193, 193);
+  background: black;
+  height: auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  position: relative;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.Left{
+  padding: 55px;
+}
+.School{
+  margin-bottom: 30px;
+}
+.Year{
+  line-height: 5px;
+}
+.Assists{
+  margin-top: 35px;
+  padding-left: .005px;
+  padding-right: 40px;
+}
+
+.Right{
+  padding: 40px;
+}
+
+body{
+  display: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(208, 230, 208);
+
+}
+li{
+  position: relative;
+  list-style: none;
+  margin-top: 10px;
+}
+.Left{
+  padding-left: 20px;
+
+}
+.First-Hobbies , .Second-Hobbies{
+  display: flex;
+  align-items: left;
+  padding-left: 30px;
+}
+.First-List-Hobbies , .Second-List-Hobbies{
+  margin-right: 50px;
+}
+
+.Profile:hover , .Skills:hover , .Summary:hover, .Skills:hover, .Year:hover,
+.Assists:hover , .Lead:hover , .CCT:hover , .ABM:hover , .ICT:hover ,
+.Languages:hover , .First-Hobbies:hover , .Second-Hobbies:hover{
+  color:#fff ;
+  transition: .0 5s;
+}
+.Contact:hover{
+  color: #0f93aa;
+}
+.fa:hover{
+  color: green;
+  transition: .05s;
+}
+.Software:hover{
+  color:rgb(138, 137, 137) ;
+}
+.Jayson:hover{
+  color:#008080;
+}
+.Photo:hover{
+  border: #00cdf1 solid 1px;
+}
+.MainName:hover{
+  color: #05c505 ;
+}
